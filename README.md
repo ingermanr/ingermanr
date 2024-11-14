@@ -1,5 +1,5 @@
-<h1 align="center">Hola, me llamo Germán Alonso</h1>
-<h3 align="center">Disfruto trabajar con datos</h3>
+<h1 align="center">Un gusto saludarte, soy Germán Alonso Rodríguez</h1>
+<h3 align="center">Disfruto trabajar con datos: aprendizaje automático y MLOps son mi enfoque actual.</h3>
 
 - 💬 Ask me about **Python, R, SQL**
 
