@@ -147,7 +147,7 @@ currently_working_on = [
 
 <div align="center">
 
-*"In God we trust. All others must bring data."*
+*"In day and night, data is in the path."*
 
 </div>
 
