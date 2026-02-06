@@ -3,7 +3,7 @@
 <div align="center">
 
 ### Data Scientist & Industrial Engineer
-*Transforming data into actionable insights for industrial operations*
+*Transforming data into actionable insights for bussines operations*
 
 [![LinkedIn](https://img.shields.io/badge/-LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white)](https://linkedin.com/in/germandsp)
 [![Kaggle](https://img.shields.io/badge/-Kaggle-20BEFF?style=flat&logo=kaggle&logoColor=white)](https://kaggle.com/germanrodriguezdiaz)
@@ -18,7 +18,7 @@
 I'm a data scientist with **10+ years** of experience at the intersection of **industrial engineering** and **machine learning**. I specialize in building data-driven solutions that deliver measurable business impact in manufacturing and supply chain operations.
 
 **What I do:**
-- Build predictive models for demand forecasting and production optimization
+- Build predictive models for demand forecasting and process optimization
 - Design and implement MLOps pipelines for real-time analytics
 - Lead digital transformation initiatives using Lean Six Sigma + Data Science
 - Develop interactive dashboards and BI solutions for operational excellence
