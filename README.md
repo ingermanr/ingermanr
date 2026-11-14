@@ -1,160 +1,214 @@
-## Hi there, I'm Germán 👋
-
 <div align="center">
 
-### Data Scientist & Industrial Engineer
-*Transforming data into actionable insights for bussines operations*
+<h1>Germán Alonso Rodríguez Díaz</h1>
 
-[![LinkedIn](https://img.shields.io/badge/-LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white)](https://linkedin.com/in/germandsp)
-[![Kaggle](https://img.shields.io/badge/-Kaggle-20BEFF?style=flat&logo=kaggle&logoColor=white)](https://kaggle.com/germanrodriguezdiaz)
-[![Email](https://img.shields.io/badge/-Email-D14836?style=flat&logo=gmail&logoColor=white)](mailto:ingenierogerman@outlook.com)
+<h3>Process Engineer · ML Engineer · Data Scientist</h3>
+
+I turn messy operations into measurable systems — process mining, mathematical
+optimization, and machine learning for industrial and trade workflows.
+
+[![Portfolio](https://img.shields.io/badge/vector--liquidprocess.com-0f172a?style=flat-square&logo=googlechrome&logoColor=white)](https://www.vector-liquidprocess.com/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/germandsp)
+[![Kaggle](https://img.shields.io/badge/Kaggle-20BEFF?style=flat-square&logo=kaggle&logoColor=white)](https://kaggle.com/germanrodriguezdiaz)
+[![Email](https://img.shields.io/badge/Email-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:ingenierogerman@outlook.com)
+
+![Followers](https://img.shields.io/github/followers/ingermanr?style=flat-square&color=0f172a&label=Followers)
+![Public repos](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.github.com%2Fusers%2Fingermanr&query=%24.public_repos&label=Repos&color=0f172a&style=flat-square)
+![Location](https://img.shields.io/badge/Medell%C3%ADn-Colombia-0f172a?style=flat-square&logo=googlemaps&logoColor=white)
 
 </div>
 
 ---
 
-### About Me
+## About
 
-I'm a data scientist with **10+ years** of experience at the intersection of **industrial engineering** and **machine learning**. I specialize in building data-driven solutions that deliver measurable business impact in manufacturing and supply chain operations.
+Industrial engineer turned data scientist, with **10+ years** bridging plant-floor
+operations and software. I care about the part most analytics projects skip: a
+model only counts when it changes a decision someone actually makes.
 
-**What I do:**
-- Build predictive models for demand forecasting and process optimization
-- Design and implement MLOps pipelines for real-time analytics
-- Lead digital transformation initiatives using Lean Six Sigma + Data Science
-- Develop interactive dashboards and BI solutions for operational excellence
+**How I work**
 
-**Recent impact:**
-```python
-impact = {
-    'cost_savings': '+$250M COP',
-    'forecast_accuracy': '90%',
-    'response_time': '5x improvement',
-    'inventory_reduction': '25%'
-}
-```
+- **Domain first.** The process is modelled before the code: explicit rules, named
+  boundaries, no hidden I/O. Most of my repositories are hexagonal and
+  framework-free at the core.
+- **Measured outcomes.** Every initiative is tied to a number — cycle time,
+  forecast error, inventory, cost per transaction.
+- **Tools people keep using.** A CLI that fits the daily routine beats a dashboard
+  nobody opens.
 
 ---
 
-### Tech Stack
-
-**Languages & Core**  
-![Python](https://img.shields.io/badge/-Python-3776AB?style=flat&logo=python&logoColor=white)
-![R](https://img.shields.io/badge/-R-276DC3?style=flat&logo=r&logoColor=white)
-![SQL](https://img.shields.io/badge/-SQL-4479A1?style=flat&logo=postgresql&logoColor=white)
-
-**ML & Data Science**  
-![Scikit-learn](https://img.shields.io/badge/-Scikit_Learn-F7931E?style=flat&logo=scikit-learn&logoColor=white)
-![TensorFlow](https://img.shields.io/badge/-TensorFlow-FF6F00?style=flat&logo=tensorflow&logoColor=white)
-![Pandas](https://img.shields.io/badge/-Pandas-150458?style=flat&logo=pandas&logoColor=white)
-![NumPy](https://img.shields.io/badge/-NumPy-013243?style=flat&logo=numpy&logoColor=white)
-
-**BI & Visualization**  
-![Power BI](https://img.shields.io/badge/-Power_BI-F2C811?style=flat&logo=powerbi&logoColor=black)
-![Tableau](https://img.shields.io/badge/-Tableau-E97627?style=flat&logo=tableau&logoColor=white)
-![Plotly](https://img.shields.io/badge/-Plotly-3F4F75?style=flat&logo=plotly&logoColor=white)
-
-**DevOps & Tools**  
-![Docker](https://img.shields.io/badge/-Docker-2496ED?style=flat&logo=docker&logoColor=white)
-![Git](https://img.shields.io/badge/-Git-F05032?style=flat&logo=git&logoColor=white)
-![Azure](https://img.shields.io/badge/-Azure-0089D6?style=flat&logo=microsoft-azure&logoColor=white)
-![VS Code](https://img.shields.io/badge/-VS_Code-007ACC?style=flat&logo=visual-studio-code&logoColor=white)
-
----
-
-### Featured Projects
+## Featured Projects
 
 <table>
 <tr>
-<td width="50%">
+<td width="50%" valign="top">
 
-#### 🌍 [Demographic Analysis - Bogotá](https://github.com/ingermanr/demographic-accesibility-bogota)
-Complete system for demographic analysis and healthcare accessibility with interactive maps.
+### protas
+**[github.com/ingermanr/protas](https://github.com/ingermanr/protas)**
 
-**Tech:** Python · Pandas · Geospatial Analysis  
-**Status:** Active (Jun 2025)
+Daily notes and tasks as one workspace per day. Unfinished work rolls over
+automatically, and any task can grow into its own project. Zero dependencies,
+SQLite local, CLI + TUI, optional Omarchy panel.
+
+`Python` `SQLite` `TUI`
 
 </td>
-<td width="50%">
+<td width="50%" valign="top">
 
-#### 🔍 [Fraud Detection System](https://github.com/ingermanr/fraud_det_sys)
-End-to-end MLOps pipeline for real-time fraud detection with automated monitoring.
+### adicar360
+**[github.com/ingermanr/adicar360](https://github.com/ingermanr/adicar360)**
 
-**Tech:** Python · ML · MLOps · Docker  
-**Status:** Production (May 2025)
+SaaS domain engine that autoliquidates DIAN Form 500 customs charges from
+explicit inputs. No I/O in the domain, no clock reads: persistence sits behind a
+repository port with a SQLite adapter.
+
+`Python` `Hexagonal` `Customs`
 
 </td>
 </tr>
 <tr>
-<td width="50%">
+<td width="50%" valign="top">
 
-#### 📊 [ExeDataSc Project](https://github.com/ingermanr/proyecto_exedatasc)
-Complete data science workflow from EDA to model deployment and insights.
+### Analisis de procesos (procmine)
+**[github.com/ingermanr/analisis-de-procesos](https://github.com/ingermanr/analisis-de-procesos)**
 
-**Tech:** Python · Jupyter · Statistical Analysis  
-**Status:** Updated (Apr 2025)
+Process mining from event logs: discovery, conformance and bottleneck analysis
+with pm4py, structured around the PM² methodology and reproducible reports.
+
+`Python` `pm4py` `Process mining`
 
 </td>
-<td width="50%">
+<td width="50%" valign="top">
 
-#### 🎓 [ML Specialization](https://github.com/ingermanr/esp_ml_ean)
-Advanced machine learning notebooks and practices (255MB+ content).
+### Optimization Studio
+**[github.com/ingermanr/optimizacion-matematica](https://github.com/ingermanr/optimizacion-matematica)**
 
-**Tech:** Jupyter · Scikit-learn · Deep Learning  
-**Status:** Active (Apr 2025)
+Guided mathematical optimization for non-experts: model a real decision,
+solve it, and read the result without writing a solver script.
+
+`FastAPI` `React` `Python`
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### Rapidash Dashboard Generator
+**[github.com/ingermanr/rapidash-dashboard-generator](https://github.com/ingermanr/rapidash-dashboard-generator)**
+
+Generates dashboard layout and palette variants, previews the combinations of
+charts, KPI cards and filters, and exports the chosen structure to PDF.
+
+`Next.js` `TypeScript` `Tailwind`
+
+</td>
+<td width="50%" valign="top">
+
+### Dataman AI
+**[github.com/ingermanr/dataman-ai](https://github.com/ingermanr/dataman-ai)**
+
+A Claude Code harness for data analysts: six checkpoint-gated phases that take a
+vague business ask to a defensible answer, with the analyst directing every step.
+
+`AI harness` `Markdown` `Analytics`
 
 </td>
 </tr>
 </table>
 
+> **Most starred:** [data_analytics](https://github.com/ingermanr/data_analytics) — a
+> structured path of resources and notebooks for learning data analytics.
+
 ---
 
-### Current Focus
+## Current Focus
 
 ```python
-currently_working_on = [
-    "🔬 Advanced ML models for industrial optimization",
-    "📊 MLOps pipelines and automation",
-    "🎯 Real-time analytics dashboards",
-    "🌱 Contributing to open-source data science projects"
-]
+current_focus = {
+    "trade_operations": "customs, DIAN filings and document validation as testable domains",
+    "process_mining":   "turning event logs into evidence of where the process actually breaks",
+    "optimization":     "guided interfaces so operations teams can solve their own models",
+    "local_first_tools": "small, dependency-free utilities that survive the daily routine",
+}
 ```
 
-**Certifications & Education:**
-- 🎓 ML Specialization - Universidad EAN (2025)
-- 📈 Applied Statistics - Universidad Católica de Manizales (2023)
-- 🏆 Lean Six Sigma Black Belt - Universidad EAFIT (2020)
-- 🔧 Industrial Engineering - Universidad Nacional de Colombia
+Currently building **adicar360** (import declaration autoliquidation) and a
+task-composition system for a Colombian customs agency, while keeping
+**protas** as the tool I use every morning.
 
 ---
 
-### GitHub Stats
+## Tech Stack
+
+**Languages**
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+![R](https://img.shields.io/badge/R-276DC3?style=flat-square&logo=r&logoColor=white)
+![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat-square&logo=postgresql&logoColor=white)
+
+**Data & ML**
+![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square&logo=scikitlearn&logoColor=white)
+![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=flat-square&logo=tensorflow&logoColor=white)
+![pandas](https://img.shields.io/badge/pandas-150458?style=flat-square&logo=pandas&logoColor=white)
+![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white)
+![pm4py](https://img.shields.io/badge/pm4py-1A7F37?style=flat-square)
+
+**Engineering**
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
+![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black)
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+![SQLite](https://img.shields.io/badge/SQLite-003B57?style=flat-square&logo=sqlite&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
+
+**Analytics & BI**
+![Power BI](https://img.shields.io/badge/Power_BI-F2C811?style=flat-square&logo=powerbi&logoColor=black)
+![Tableau](https://img.shields.io/badge/Tableau-E97627?style=flat-square&logo=tableau&logoColor=white)
+![Plotly](https://img.shields.io/badge/Plotly-3F4F75?style=flat-square&logo=plotly&logoColor=white)
+
+---
+
+## Selected Impact
+
+| Metric | Result | Context |
+| :-- | :-- | :-- |
+| Cost savings | **+$250M COP** | Process redesign + analytics in manufacturing |
+| Forecast accuracy | **90%** | Demand forecasting for planning and inventory |
+| Response time | **5x faster** | Automated reporting replacing manual cycles |
+| Inventory reduction | **25%** | Policy tuning driven by forecast and variability |
+
+---
+
+## Certifications & Education
+
+- **MSc-level ML Specialization** — Universidad EAN (2025)
+- **Applied Statistics** — Universidad Católica de Manizales (2023)
+- **Lean Six Sigma Black Belt** — Universidad EAFIT (2020)
+- **Industrial Engineering** — Universidad Nacional de Colombia
+
+---
+
+## GitHub at a Glance
 
 <div align="center">
 
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=ingermanr&show_icons=true&theme=transparent&hide_border=true&count_private=true)
-
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=ingermanr&layout=compact&theme=transparent&hide_border=true&langs_count=6)
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=ingermanr&theme=github_dark">
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=ingermanr&theme=default" alt="GitHub profile summary" width="100%">
+</picture>
 
 </div>
 
 ---
 
-### Let's Connect
-
-💼 Open to collaborations on industrial data science projects and process optimization  
-📫 Reach me at: **ingenierogerman@outlook.com**  
-🌍 Based in: **Medellín, Colombia**
-
 <div align="center">
 
-*"In day and night, data is in the path."*
+**Open to collaborations** on process mining, industrial data science and
+decision-support tooling.
 
-</div>
+📫 `ingenierogerman@outlook.com` · 🌍 Medellín, Colombia · 🌐 [vector-liquidprocess.com](https://www.vector-liquidprocess.com/)
 
----
-
-💙 **Gracias por visitar mi perfil** 💙
-
-![Wave](https://raw.githubusercontent.com/mayhemantt/mayhemantt/Update/svg/Bottom.svg)
+<sub><em>“In day and night, data is in the path.”</em></sub>
 
 </div>
