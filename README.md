@@ -70,15 +70,30 @@ repository port with a SQLite adapter.
 <tr>
 <td width="50%" valign="top">
 
+### Bilt — task composition
+**[github.com/ingermanr/sistema-tareas-prediseniadas-bilt](https://github.com/ingermanr/sistema-tareas-prediseniadas-bilt)**
+
+Business processes built from reusable task templates: DAG definitions,
+immutable published versions, and execution as an append-only event log with
+business calendar, SLA and metrics. Pilot: a Colombian customs agency.
+
+`TypeScript` `Hexagonal` `PostgreSQL`
+
+</td>
+<td width="50%" valign="top">
+
 ### Analisis de procesos (procmine)
 **[github.com/ingermanr/analisis-de-procesos](https://github.com/ingermanr/analisis-de-procesos)**
 
-Process mining from event logs: discovery, conformance and bottleneck analysis
-with pm4py, structured around the PM² methodology and reproducible reports.
+Turns a CSV event log and a YAML config into a self-contained HTML report: data
+quality, variants, discovered models, conformance, performance and
+organizational analysis, built on pm4py.
 
 `Python` `pm4py` `Process mining`
 
 </td>
+</tr>
+<tr>
 <td width="50%" valign="top">
 
 ### Optimization Studio
@@ -88,6 +103,18 @@ Guided mathematical optimization for non-experts: model a real decision,
 solve it, and read the result without writing a solver script.
 
 `FastAPI` `React` `Python`
+
+</td>
+<td width="50%" valign="top">
+
+### DocExtract
+**[github.com/ingermanr/docExtract](https://github.com/ingermanr/docExtract)**
+
+Extraction platform for foreign trade documents — invoices, transport
+documents, packing lists, certificates of origin, insurance policies — with a
+review SPA and Entra ID authentication.
+
+`FastAPI` `React` `Azure`
 
 </td>
 </tr>
@@ -112,6 +139,31 @@ A Claude Code harness for data analysts: six checkpoint-gated phases that take a
 vague business ask to a defensible answer, with the analyst directing every step.
 
 `AI harness` `Markdown` `Analytics`
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### GoPro Webcam for Omarchy
+**[github.com/ingermanr/omarchy-gopro](https://github.com/ingermanr/omarchy-gopro)**
+
+Bar widget that drives a USB GoPro HERO12 as a webcam through v4l2loopback:
+start/stop the stream, switch lens and resolution, record, take a photo and
+download the newest SD card file.
+
+`QML` `Bash` `v4l2loopback`
+
+</td>
+<td width="50%" valign="top">
+
+### Spotify for Omarchy
+**[github.com/ingermanr/omarchy-spotify](https://github.com/ingermanr/omarchy-spotify)**
+
+Bar widget with playback control over MPRIS/D-Bus, plus track search, main
+artists and featured playlists through the Spotify Web API.
+
+`QML` `D-Bus` `Spotify API`
 
 </td>
 </tr>
